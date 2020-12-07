@@ -51,7 +51,6 @@ function App() {
       .auth()
       .signInWithEmailAndPassword(email, password)
       .then((response) => {
-        console.log("LOGIN SUCCESS", response);
         setLoggedIn(true);
       })
       .catch((error) => {
@@ -81,7 +80,6 @@ function App() {
       .auth()
       .createUserWithEmailAndPassword(email, password)
       .then((response) => {
-        console.log("VALID ACCOUNT CREATED WITH ", email, password);
         setLoggedIn(true);
       })
       .catch((error) => {
