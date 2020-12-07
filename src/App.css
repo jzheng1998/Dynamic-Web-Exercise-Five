@@ -1,2 +1,32 @@
 .App {
+  max-width: 1040px;
+  margin: 0 auto;
+}
+
+.Header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.Header nav a {
+  color: black;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  margin: 10px;
+  text-decoration: underline;
+}
+
+.SignupForm {
+  display: flex;
+  flex-direction: column;
+}
+
+.SignupForm input,
+.SignupForm button {
+  margin-bottom: 30px;
+  max-width: 400px;
+  width: 100%;
 }

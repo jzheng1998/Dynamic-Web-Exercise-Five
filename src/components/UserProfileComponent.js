@@ -1,6 +1,6 @@
 import React from "react";
 
-function UserProfileComponent() {
+function UserProfileComponent({ userInformation }) {
   return <div></div>;
 }
 
